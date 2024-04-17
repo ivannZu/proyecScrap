@@ -1,0 +1,32 @@
+.navbar {
+  position: fixed; /* Fija la barra lateral en la pantalla */
+  top: 0; /* La barra lateral comienza desde la parte superior de la pantalla */
+  left: 0; /* La barra lateral se alinea a la izquierda */
+  height: 100%; /* La barra lateral ocupa toda la altura de la pantalla */
+  width: 200px; /* Ancho de la barra lateral */
+  background-color: #6A0F49; /* Color de fondo del menú */
+  padding: 20px; /* Espaciado interno de la barra lateral */
+  display: flex; /* Para que los enlaces se muestren en línea */
+  flex-direction: column; /* Para que los enlaces se muestren en forma vertical */
+  align-items: flex-start; /* Para alinear los enlaces a la izquierda */
+}
+
+.nav-link {
+  color: #ffffff; /* Color del texto de los enlaces */
+  text-decoration: none; /* Eliminar subrayado */
+  margin-bottom: 50px; /* Espaciado entre los enlaces */
+  font-size: 19px; /* Tamaño de la fuente */
+}
+
+/* Estilos para el enlace activo */
+.nav-link.active {
+  color: blue; /* Color diferente para el enlace activo */
+  font-weight: bold; /* Texto en negrita para el enlace activo */
+}
+
+.nav-link:hover {
+  background-color: #5e5b5b; /* Cambia el color de fondo en hover */
+  color: #ffffff; /* Cambia el color del texto en hover */
+  width: 110%;
+  ;
+}
